@@ -69,7 +69,10 @@ document.querySelectorAll("main section[id]").forEach((section) => {
 
 const heroImage = document.querySelector(".hero-media img");
 const parallaxHero = () => {
-  if (!heroImage || prefersReducedMotion.matches) return;
+  if (!heroImage || prefersReducedMotion.matches || window.innerWidth <= 720) {
+    heroImage?.style.removeProperty("transform");
+    return;
+  }
   const offset = Math.min(90, window.scrollY * 0.08);
   heroImage.style.transform = `translate3d(0, ${offset}px, 0) scale(1.04)`;
 };
@@ -85,7 +88,7 @@ const renderContent = () => {
         (item, index) => `
         <details class="expertise-item" ${index === 0 ? "open" : ""}>
           <summary>
-            <span>${String(index + 1).padStart(2, "0")}</span>
+            <span>${item.area || "Étude"}</span>
             <strong>${item.title}</strong>
           </summary>
           <p>${item.text}</p>

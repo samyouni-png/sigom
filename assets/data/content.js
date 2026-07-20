@@ -1,85 +1,76 @@
 window.SIGOM_CONTENT = {
   expertises: [
     {
+      area: "Audit",
       title: "Audit énergétique",
-      text: "Analyse de l'enveloppe, des systèmes, des consommations et des trajectoires de travaux pour les copropriétés, bâtiments tertiaires et patrimoines existants."
+      text: "Relevé des consommations, lecture de l'enveloppe, analyse des systèmes et définition de scénarios de travaux avec estimation des gains et des coûts."
     },
     {
+      area: "Diagnostic",
       title: "Audit technique",
-      text: "Lecture méthodique de l'état du bâti, des équipements, des pathologies et des priorités d'intervention."
+      text: "Constat de l'état du bâti, des équipements, des pathologies visibles et des priorités d'intervention avant engagement d'un programme de travaux."
     },
     {
+      area: "Études",
       title: "Études techniques",
-      text: "Notes, hypothèses, dimensionnements et arbitrages pour transformer un constat en programme opérationnel."
+      text: "Hypothèses de dimensionnement, notes techniques, analyse de faisabilité, pièces de consultation et points de vigilance pour la phase opérationnelle."
     },
     {
-      title: "Études économiques",
-      text: "Estimation des enveloppes travaux, phasage, aide à la décision et lecture coût global sur la durée de vie."
+      area: "AMO",
+      title: "Assistance à maîtrise d'ouvrage",
+      text: "Appui au cadrage de mission, à la préparation des décisions, à la consultation et à l'analyse technique des propositions reçues."
     },
     {
-      title: "Optimisation énergétique",
-      text: "Recherche de gains mesurables : régulation, calorifugeage, ventilation, chauffage, équilibrage et sobriété d'exploitation."
+      area: "MOE",
+      title: "Maîtrise d'œuvre",
+      text: "Préparation du dossier, consultation des entreprises, suivi des choix techniques, coordination des intervenants et contrôle de la mise en œuvre."
     },
     {
-      title: "Plans pluriannuels",
-      text: "Construction de trajectoires PPPT lisibles, hiérarchisées et compatibles avec les contraintes techniques et financières."
-    },
-    {
-      title: "DTG",
-      text: "Diagnostic technique global avec vision bâti, équipements, sécurité, maintenance, performance et stratégie de conservation."
-    },
-    {
-      title: "Assistance DCE",
-      text: "Structuration des pièces techniques, analyse des offres et accompagnement jusqu'au choix des entreprises."
-    },
-    {
+      area: "Suivi",
       title: "Accompagnement des projets",
-      text: "Appui aux syndics, architectes, collectivités et dirigeants dans les phases de cadrage, consultation et pilotage."
+      text: "Présence technique aux étapes sensibles : priorisation, phasage, échanges avec les intervenants, analyse des écarts et suivi des décisions."
     }
   ],
   sectors: [
-    "Copropriétés",
-    "Syndics",
-    "Collectivités",
-    "Commerces",
+    "Habitat collectif",
+    "Monopropriétés",
+    "Maisons individuelles",
     "Tertiaire",
-    "PME",
-    "Architectes",
-    "Entreprises du bâtiment",
-    "Patrimoine existant"
+    "Syndics",
+    "Collectivités"
   ],
   references: [
     {
-      type: "Copropriété",
-      title: "Immeuble haussmannien, audit énergétique",
-      text: "Lecture de l'enveloppe, ventilation, chauffage collectif et scénarios de travaux compatibles avec l'occupation."
+      type: "Habitat collectif",
+      title: "Audit et trajectoire de rénovation",
+      text: "Analyse de l'enveloppe, des systèmes collectifs, des consommations et des contraintes d'occupation pour établir un programme hiérarchisé."
+    },
+    {
+      type: "Monopropriété",
+      title: "Étude technique avant travaux",
+      text: "Qualification de l'existant, choix des hypothèses de travaux, estimation des incidences techniques et préparation des pièces de consultation."
     },
     {
       type: "Tertiaire",
-      title: "Plateau de bureaux, optimisation d'exploitation",
-      text: "Analyse des usages, régulation, comptage et priorisation des actions à retour rapide."
-    },
-    {
-      type: "Collectivité",
-      title: "Patrimoine communal, programmation pluriannuelle",
-      text: "Hiérarchisation technique et économique des interventions sur un ensemble de bâtiments existants."
+      title: "Optimisation énergétique et usages",
+      text: "Lecture des consommations, des équipements et des conditions d'exploitation pour prioriser les réglages, remplacements ou travaux utiles."
     }
   ],
   news: [
     {
-      date: "Veille technique",
+      date: "PPPT",
       title: "PPPT : rendre le plan lisible pour une assemblée générale",
-      text: "Un plan pluriannuel utile distingue urgence, préservation, performance et capacité de financement."
+      text: "Un plan exploitable distingue urgence, conservation, performance, coût, phasage et conditions de vote."
     },
     {
-      date: "Ingénierie énergétique",
-      title: "Reseaux collectifs : pourquoi l'equilibrage reste decisif",
-      text: "Un réseau mal réglé masque les gains possibles et affaiblit la pertinence des scénarios travaux."
+      date: "Réseaux collectifs",
+      title: "Réseaux collectifs : pourquoi l'équilibrage reste décisif",
+      text: "Un réseau mal réglé fausse les consommations, réduit le confort et peut affaiblir la pertinence des scénarios de travaux."
     },
     {
-      date: "Bâti existant",
-      title: "DTG : passer d'un diagnostic à une stratégie",
-      text: "Le diagnostic n'a de valeur que s'il permet d'arbitrer avec méthode et de tenir une trajectoire."
+      date: "Mission",
+      title: "De l'audit à la mise en œuvre",
+      text: "La qualité d'un projet dépend de la précision du diagnostic, mais aussi de la clarté des arbitrages transmis aux intervenants."
     }
   ]
 };

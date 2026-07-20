@@ -139,7 +139,7 @@
 
   <g>
     <text class="label" x="1038" y="430">Points de controle Sig'Om</text>
-    <text class="small" x="1038" y="462">Audit des pertes, equilibrage, calorifugeage, regulation</text>
+    <text class="small" x="1038" y="462">Audit des pertes, équilibrage, calorifugeage, régulation</text>
     <path class="fine" d="M1038 486h232M1038 524h232M1038 562h232"/>
     <circle class="gold" cx="1020" cy="486" r="5"/>
     <circle class="gold" cx="1020" cy="524" r="5"/>
