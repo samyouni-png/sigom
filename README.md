@@ -18,3 +18,4 @@ Le formulaire utilise une validation front-end accessible et prépare un e-mail 
 La page est conçue pour une publication statique, notamment sur GitHub Pages à l'adresse :
 
 `https://samyouni-png.github.io/sigom/`
+
