@@ -1,4 +1,4 @@
-# Site Sig’Om
+# Site Sig’Om 
 
 Site vitrine statique pour Sig’Om, bureau d’études techniques spécialisé dans la rénovation et la performance énergétique des bâtiments.
 
